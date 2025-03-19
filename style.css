@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+  font-family: "Figtree";
   background-color: #F4D04E;
   display: flex;
   align-items: center;
@@ -28,4 +31,37 @@ body {
 .blog-image {
   border-radius: 10px;
   object-fit: cover;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.category {
+  width: 82px;
+  height: 29px;
+  background-color: #F4D04E;
+  border-radius: 4px;
+  padding: 4px 8px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #6B6B6B;
 }
